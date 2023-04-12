@@ -1,6 +1,6 @@
 name: 'Run App NathanRoberts'
 
-on: [push]
+on: [push, pull_request]
 
 jobs:
   check-bats-version:
