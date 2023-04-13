@@ -35,7 +35,7 @@ namespace GithubActionsLab
         [Test]
         public void Subtract_Valid_Roberts()
         {
-            Assert.AreEqual(3, Program.Subtract("4", "2"));
+            Assert.AreEqual(3, Program.Subtract("4", "1"));
             Assert.AreEqual(5, Program.Subtract("8", "3"));
             Assert.AreEqual(7, Program.Subtract("9", "2"));
         }
